@@ -1,0 +1,7 @@
+# Optional. Both scripts run without these; the EXIF columns in metadata.csv
+# are simply left blank when neither library is installed.
+Pillow>=10.0
+exifread>=3.0
+
+# Only needed for exotic/legacy .plist files that Python's plistlib rejects.
+# biplist
